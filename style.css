@@ -1,0 +1,20 @@
+@import "assets/scc/clients.css";
+@import "assets/scc/footer.css";
+@import "assets/scc/learn-more-section.css";
+@import "assets/scc/header.css";
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("assets/fonts/DM Serif Display/DMSerifDisplay-Regular.ttf");
+}
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("assets/fonts/Rubik/Rubik-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("assets/fonts/Roboto/Roboto-Bold.ttf");
+}
