@@ -1,0 +1,131 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: linen;
+    width: 100%;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 350px ;
+
+}
+
+.logo{
+    height: 50px;
+    width: 212px;
+    margin: 60px 0 0 240px;
+}
+nav{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.hero > h1{
+    color: #FFF;
+    font-family: "DM Serif Display" , sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    display: flex;
+    width: 741px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 220px;
+    margin-top: 69px;
+}
+.contact-btn{
+    border-radius: 5px;
+    background: #EE4D47;
+    width: 158px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.start-btn{
+    border-radius: 5px;
+    background: #EE4D47;
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 220px;
+    margin-top: 60px;
+    transition: all 0.3s ease-in-out;
+
+}
+.start-btn img {
+    margin-left: 10px;
+
+}
+.car{
+    margin-top: 55px;
+    margin-left: -220px;
+    overflow: hidden;
+}
+.hero{
+    background-image: url("../imgs/Background Scenebg.svg");
+    background-position-y: -270px;
+    background-position-x: 110px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.header{
+    background-image: url("../imgs/Background Scenebg.svg");
+    background-position-x: 110px;
+    background-position-y: -160px;
+    overflow-x: hidden;
+    background-size: cover;
+}
+.contact-btn:hover{
+    background: #FCDDD4;
+    color: #402B2B;
+}
+nav > a:hover{
+    color: #FCDDD4;
+    border-bottom: linen solid 2px;
+}
+.start-btn:hover{
+    scale: 0.9;
+}
+
