@@ -1,5 +1,4 @@
 .clients-top-text > h2{
-    justify-content: center;
     flex-shrink: 0;
     color: #EE4D47;
     font-family: "Rubik-Regular" , sans-serif;
@@ -27,7 +26,7 @@
     background-color: white;
     border-radius: 5%;
     text-align: center;
-    padding: 60px 50px 40px 50px;
+    padding: 20px 50px 10px 50px;
     transition: all 0.3s ease-in-out;
 
 }
@@ -35,7 +34,6 @@
 .client-info {
     display: flex;
     align-items: center;
-    padding-left: 50px;
     padding-top: 20px;
 }
 .client-info > h6{
@@ -51,7 +49,6 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-top: 40px;
 }
 .client-review{
     color: #402B2B;
@@ -86,17 +83,33 @@
 .client:hover{
     scale: 1.1;
 }
+@media (min-width: 1921px) {
+    .client-review{
+        font-size: 20px;
+    }
+}
 
-@media (max-width: 1200px) {
-    .clients-div {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+@media (max-width: 1100px) {
+    .clients > .clients-div {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .client{
+        width: 80%;
     }
 }
 @media (max-width: 800px) {
-    .clients-div {
-        flex-direction: column;
-        justify-content: normal;
+    .clients{
+        padding: 70px 50px;
+        align-items: center;
+        gap: 10PX;
+
+    }
+    .client{
+        padding: 20px 20px 10px 20px;
+    }
+    .client-info > h6{
+        width: 100px;
     }
 }

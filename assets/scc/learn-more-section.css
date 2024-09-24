@@ -1,8 +1,9 @@
 .About{
-    padding: 115px 0;
+    padding: 115px 0 0 0;
     width: 70%;
-    margin: 0 auto;
+    margin:auto;
     display: flex;
+    justify-content: space-between;
 }
 .About > img{
     float: right;
@@ -22,15 +23,19 @@
     line-height: 40px;
     letter-spacing: 2.4px;
 }
+.ill{
+    width: 50%;
+    height: auto;
+}
 .about-p{
     margin-top: 40px;
-    width: 50%;
+    width: 70%;
     height: auto;
     flex-shrink: 0;
 
     color:#402B2B;
     font-family: "Rubik-Regular" , sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 40px;
@@ -39,12 +44,12 @@
     display: flex;
     color: #402B2B;
     font-family: "Rubik-SemiBold", Rubik-Bold , sans-serif;
-    font-size: 24px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 36px;
     margin-top: 70px;
-    width: 80%;
+    width: 100%;
     height:auto;
     flex-shrink: 0;
     border-left: #ED4D47 solid 10px;
@@ -55,14 +60,12 @@
 .apply{
     display: flex;
     justify-content: space-between;
+    gap: 100px;
 
-    padding-left: 150px;
 }
 
 .apply-info > h2{
     display: flex;
-    width: 260px;
-    height: 50px;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
@@ -73,24 +76,116 @@
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 2px;
-    padding-left: 60px;
+    padding-left: 35%;
     padding-top: 130px;
 }
 .apply-img{
+    width: 250%;
+    height: auto;
+    padding-left: 100px;
 }
 .apply-text {
     margin-top: 40px;
-    padding-left: 60px;
-    width: 50%;
+    padding-left: 35%;
+    width: 70%;
     height: auto;
     color: #402B2B;
     font-family: "Rubik-Regular" , sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: 40px;
 }
 .apply-info{
-    margin-left: 125px;
+    margin: auto;
     overflow: hidden;
 }
+@media (min-width: 1100px) and (max-width: 1920px) {
+    .about-p{
+        font-size: 20px;
+    }
+    .about-bot{
+        font-size: 20px;
+    }
+    .apply-text{
+        font-size: 20px;
+    }
+    .apply-img{
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .About, .apply{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-p, .apply-text, .info{
+        padding: 0;
+        width: 70%;
+        margin: auto;
+        font-size: 20px ;
+    }
+    .apply-img{
+        width: 60%;
+    }
+    .apply-info > h2{
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+    .About{
+        width: 90%;
+        padding-bottom: 0;
+        align-items: center;
+    }
+    .about-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+}
+@media (max-width: 800px) {
+    .ill, .apply-img{
+        display: none;
+    }
+    .apply-p,.about-p{
+        margin-left: 40px;
+        width: 90%;
+    }
+    .US{
+        margin-left: 40px;
+    }
+    .about-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .about-bot{
+        padding: 0;
+    }
+    .clients-text{
+        font-size: 25px;
+    }
+    .clients{
+        padding: 50px 0;
+    }
+
+}
+@media (min-width: 1921px) and (max-width: 2560px) {
+    .about-p{
+        font-size: 30px;
+    }
+    .about-bot{
+        font-size: 30px;
+    }
+    .apply-text{
+        font-size: 30px;
+    }
+}
+
