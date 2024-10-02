@@ -80,6 +80,7 @@ html{
 body{
     background-color: linen;
     overflow-x: hidden;
+
 }
 
 header{
@@ -88,6 +89,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-right: 20% ;
+
 
 }
 
@@ -102,6 +104,7 @@ nav{
     margin-right: 10%;
     display: flex;
     gap: 80px;
+
     align-items: center;
 }
 nav > a{
@@ -110,6 +113,7 @@ nav > a{
     text-align: center;
     font-family: "Rubik-Regular" , sans-serif;
     font-size: 10px;
+
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -120,6 +124,7 @@ nav > a{
     color: #FFF;
     font-family: "DM Serif Display" , sans-serif;
     font-size: 50px;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;

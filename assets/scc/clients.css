@@ -1,4 +1,5 @@
 .clients-top-text > h2{
+    justify-content: center;
     flex-shrink: 0;
     color: #EE4D47;
     font-family: "Rubik-Regular" , sans-serif;
@@ -27,6 +28,7 @@
     border-radius: 5%;
     text-align: center;
     padding: 20px 50px 10px 50px;
+
     transition: all 0.3s ease-in-out;
 
 }
@@ -49,6 +51,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+
 }
 .client-review{
     color: #402B2B;
@@ -111,5 +114,6 @@
     }
     .client-info > h6{
         width: 100px;
+
     }
 }
