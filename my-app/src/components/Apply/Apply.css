@@ -1,0 +1,43 @@
+.apply{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.apply-info > h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #EE4D47;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-left: 35%;
+    padding-top: 130px;
+}
+.apply-img{
+    width: 250%;
+    height: auto;
+    padding-left: 100px;
+}
+.apply-text {
+    margin-top: 40px;
+    padding-left: 35%;
+    width: 70%;
+    height: auto;
+    color: #402B2B;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+.apply-info{
+    margin: auto;
+    overflow: hidden;
+}

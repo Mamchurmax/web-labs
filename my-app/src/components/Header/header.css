@@ -1,0 +1,147 @@
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: 90px;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.hamburger .line1 {
+    transform: rotate(0);
+}
+
+.hamburger .line2 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hamburger .line3 {
+    transform: rotate(0);
+}
+
+.hamburger.active .line1 {
+    transform: rotate(45deg);
+}
+
+.hamburger.active .line2 {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.hamburger.active .line3 {
+    transform: rotate(-45deg);
+}
+
+.burger-content {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    top: 0;
+    padding: 60px 0;
+}
+
+.burger-content a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.hamburger.active + .burger-content {
+    display: flex;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: linen;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20% ;
+
+}
+
+.logo{
+    height: 50px;
+    width: 152px;
+    margin: 10px 20px 0 120px;
+
+}
+
+nav{
+    margin-right: 10%;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.contact-btn{
+    border-radius: 5px;
+    background: #EE4D47;
+    width: 128px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+.background-image {
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    width: 88%;
+    overflow: hidden;
+    left: 12%;
+}
+header{
+    margin-left: 6%;
+}
+
+.background-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}

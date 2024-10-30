@@ -1,0 +1,115 @@
+.clients-top-text > h2{
+    flex-shrink: 0;
+    color: #EE4D47;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    padding: 70px 150px;
+
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 32%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    padding: 20px 50px 10px 50px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.client-info > h6{
+    color: #402B2B;
+    font-family: "Roboto Bold" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.client-review{
+    color: #402B2B;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.clients-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.arkr{
+    color: #EE4D47;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.clients-text{
+    color: #402B2B;
+    font-family: "DM Serif Display", sans-serif ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.client:hover{
+    scale: 1.1;
+}
+@media (min-width: 1921px) {
+    .client-review{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .clients > .clients-div {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .client{
+        width: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .clients{
+        padding: 70px 50px;
+        align-items: center;
+        gap: 10PX;
+
+    }
+    .client{
+        padding: 20px 20px 10px 20px;
+    }
+    .client-info > h6{
+        width: 100px;
+    }
+}
