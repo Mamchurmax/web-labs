@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // Зверніть увагу на 'react-dom/client'
+import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 

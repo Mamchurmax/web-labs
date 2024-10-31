@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8215afa4-5724-479f-a2ec-676497424903" name="Changes" comment="" />
+    <list default="true" id="8215afa4-5724-479f-a2ec-676497424903" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Clients/Clients.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Clients/Clients.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +49,7 @@
   "keyToString": {
     "Node.js.clousure.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab-FIVE",
+    "git-widget-placeholder": "#6 on lab6",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Projects/web-labs",
     "node.js.detected.package.eslint": "true",
@@ -53,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,6 +91,7 @@
       <workItem from="1728463560025" duration="18686000" />
       <workItem from="1729438681297" duration="696000" />
       <workItem from="1730125578433" duration="776000" />
+      <workItem from="1730356884297" duration="3392000" />
     </task>
     <servers />
   </component>
