@@ -1,0 +1,66 @@
+.start-btn{
+    border-radius: 5px;
+    background: #EE4D47;
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik-Regular" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 220px;
+    margin-top: 5%;
+    transition: all 0.3s ease-in-out;
+
+}
+.start-btn img {
+    margin-left: 10px;
+
+}
+.car{
+    width: 45%;
+    height: auto;
+    margin-left: -20%;
+    overflow: hidden;
+    padding-top: 10%;
+
+}
+
+
+.hero{
+    margin-left: 6%;
+}
+
+.contact-btn:hover{
+    background: #FCDDD4;
+    color: #402B2B;
+}
+nav > a:hover{
+    color: #FCDDD4;
+    border-bottom: linen solid 2px;
+}
+.start-btn:hover{
+    scale: 0.9;
+}
+.hero > h1{
+    color: #FFF;
+    font-family: "DM Serif Display" , sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    display: flex;
+    width: 30%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: 220px;
+    margin-top: 69px;
+}
