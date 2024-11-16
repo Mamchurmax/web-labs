@@ -1,0 +1,30 @@
+.tiles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px 0;
+}
+
+.tile {
+    text-align: center;
+    width: 250px;
+    padding: 20px 15px;
+    background-color: #FCDDD4;
+    border-radius: 5%;
+}
+
+.tile img {
+    width: 200px;
+    height: 200px;
+}
+
+.tile h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.tile p {
+    font-size: 0.9em;
+    color: #666;
+}
